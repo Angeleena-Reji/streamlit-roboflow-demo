@@ -55,7 +55,7 @@ def main():
     Main part of the script that defines the main method and calls the logo detection.
     Also sets up a logger for debugging purposes.
     """
-    st.header("Real-time Streamlit Logo Detection with Roboflow")
+    st.header("Oral disease detection and classfication")
 
     logo_detection()
 
@@ -66,13 +66,13 @@ def main():
 
 
 def logo_detection():
-    """Streamlit Logo Detection with Roboflow"""
+    """Oral disease detection and classfication"""
 
     ##########
     ##### Set up sidebar
     ##########
 
-    st.sidebar.write("### Streamlit Logo Detection")
+    st.sidebar.write("### Detection")
 
     ## Add in sliders.
     CONFIDENCE_THRESHOLD = st.sidebar.slider(
